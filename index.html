@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mời bạn đăng nhập</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      text-align: center;
+      padding: 20px;
+    }
+    header img {
+      width: 150px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      color: #333;
+    }
+    p {
+      color: #555;
+    }
+    .btn-login {
+      background-color: #0084ff;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 16px;
+      text-decoration: none;
+      display: inline-block;
+      margin: 20px auto;
+    }
+    .btn-login:hover {
+      background-color: #005bb5;
+    }
+    .qr-section img {
+      width: 150px;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://via.placeholder.com/150" alt="Logo ứng dụng">
+  </header>
+  <h1>Chào mừng bạn đến với ứng dụng IVS Academy</h1>
+  <p>Hãy đăng nhập bằng tài khoản Zalo của bạn để trải nghiệm toàn bộ tính năng.</p>
+
+  <!-- Nút đăng nhập -->
+  <a class="btn-login" href="https://oauth.zalo.me/oauth2/v4/authorize?app_id=337858419795962711&redirect_uri=https://example.com/login/zalo&state=login">
+    Đăng nhập bằng Zalo
+  </a>
+
+  <!-- QR Code -->
+  <div class="qr-section">
+    <p>Hoặc quét mã QR để đăng nhập:</p>
+    <img src="https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl=https://oauth.zalo.me/oauth2/v4/authorize?app_id=337858419795962711&redirect_uri=https://example.com/login/zalo&state=login" alt="QR Code">
+  </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chèn hình ảnh</title>
+</head>
+<body>
+  <h1>Chèn hình ảnh từ máy tính</h1>
+  <!-- Chèn ảnh từ thư mục 'images' -->
+  <img src="images/logo.png" alt="Logo ứng dụng" style="width: 200px; height: auto;">
+</body>
+</html>
